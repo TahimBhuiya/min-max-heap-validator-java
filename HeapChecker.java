@@ -20,3 +20,11 @@ public class HeapChecker {
     }
 
     public static void main(String[] args) {
+        int[] A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] B = {11, 9, 7, 5, 3, 1, -1, -3, -5, -7};
+        int[] C = {6, 7, 8, 9, 10, 1, 2, 3, 4, 5};
+
+        checkAndPrint("A", A);
+        checkAndPrint("B", B);
+        checkAndPrint("C", C);
+    }
