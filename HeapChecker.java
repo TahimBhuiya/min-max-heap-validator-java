@@ -18,3 +18,5 @@ public class HeapChecker {
         }
         return true;
     }
+
+    public static void main(String[] args) {
