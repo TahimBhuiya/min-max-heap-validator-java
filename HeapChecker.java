@@ -9,3 +9,5 @@ public class HeapChecker {
         }
         return true;
     }
+
+    public static boolean isMaxHeap(int[] arr) {
