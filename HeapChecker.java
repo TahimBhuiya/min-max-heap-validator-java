@@ -71,15 +71,16 @@ public class HeapChecker {
      * whether each is a min heap, max heap, or neither.
      */
     public static void main(String[] args) {
-        int[] A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int[] B = {11, 9, 7, 5, 3, 1, -1, -3, -5, -7};
-        int[] C = {6, 7, 8, 9, 10, 1, 2, 3, 4, 5};
+        // Example arrays
+        int[] A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};        // should be a min heap
+        int[] B = {11, 9, 7, 5, 3, 1, -1, -3, -5, -7};    // should be a max heap
+        int[] C = {6, 7, 8, 9, 10, 1, 2, 3, 4, 5};        // neither
 
+        // Evaluate and print results
         checkAndPrint("A", A);
         checkAndPrint("B", B);
         checkAndPrint("C", C);
     }
-
     
     private static void checkAndPrint(String label, int[] arr){
         if (isMinHeap(arr)) {
