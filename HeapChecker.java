@@ -15,7 +15,10 @@
  * We only need to iterate over the non-leaf parents: indices [0 .. floor((n-2)/2)].
  */
 public class HeapChecker {
-
+    /**
+     * Returns true if the given array represents a min heap.
+     * A min heap requires every parent to be <= each of its children (if they exist).
+     **/
     public static boolean isMinHeap(int[] arr) {
         int n = arr.length;
         for (int i = 0; i <= (n - 2) / 2; i++) {
