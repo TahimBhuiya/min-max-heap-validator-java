@@ -41,7 +41,10 @@ public class HeapChecker {
         // No violations found => it's a min heap
         return true;
     }
-
+    /**
+     * Returns true if the given array represents a max heap.
+     * A max heap requires every parent to be >= each of its children (if they exist).
+     */
     public static boolean isMaxHeap(int[] arr) {
         int n = arr.length;
         for (int i = 0; i <= (n - 2) / 2; i++) {
