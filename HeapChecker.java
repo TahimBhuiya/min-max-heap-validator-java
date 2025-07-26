@@ -1,4 +1,19 @@
+//Created by Tahim Bhuiya
 
+
+/**
+ * HeapChecker
+ * -----------
+ * Utility class to determine whether an integer array (interpreted as a binary heap
+ * stored in level-order) satisfies the min-heap or max-heap property.
+ *
+ * Indexing rules for a heap in an array (0-based):
+ *   parent at i
+ *     -> left  child at 2*i + 1
+ *     -> right child at 2*i + 2
+ *
+ * We only need to iterate over the non-leaf parents: indices [0 .. floor((n-2)/2)].
+ */
 public class HeapChecker {
 
     public static boolean isMinHeap(int[] arr) {
