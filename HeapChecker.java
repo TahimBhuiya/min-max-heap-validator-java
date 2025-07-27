@@ -88,7 +88,7 @@ public class HeapChecker {
         if (isMinHeap(arr)) {
             System.out.println("Array " + label + " is a min heap."); //shows that it is a min heap
         } else if (isMaxHeap(arr)) {
-            System.out.println("Array " + label + " is a max heap.");
+            System.out.println("Array " + label + " is a max heap."); //shows that it is a max heap
         } else {
             System.out.println("Array " + label + " is neither a max heap nor a min heap.");
         }
