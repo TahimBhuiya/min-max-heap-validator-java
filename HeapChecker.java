@@ -81,7 +81,9 @@ public class HeapChecker {
         checkAndPrint("B", B);
         checkAndPrint("C", C);
     }
-    
+        /**
+     * Helper method to print whether the provided array is a min heap, max heap, or neither.
+     */
     private static void checkAndPrint(String label, int[] arr){
         if (isMinHeap(arr)) {
             System.out.println("Array " + label + " is a min heap.");
