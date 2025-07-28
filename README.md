@@ -26,3 +26,7 @@ Array A is a min heap.
 Array B is a max heap.
 Array C is neither a max heap nor a min heap.
 ```
+
+## 🚀 How to Run
+
+1. Clone the repository or download the `.java` file.
