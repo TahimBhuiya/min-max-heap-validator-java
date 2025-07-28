@@ -14,3 +14,7 @@ This program analyzes integer arrays to verify if they satisfy the properties of
 * Validates min heap structure
 * Validates max heap structure
 * Outputs the type of heap each array represents
+
+## 🛠️ How It Works
+
+Each array is traversed from the root to the last parent node. The child indices (`2*i + 1` for left, `2*i + 2` for right) are used to check heap conditions.
