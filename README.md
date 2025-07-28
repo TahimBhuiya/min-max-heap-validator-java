@@ -30,3 +30,4 @@ Array C is neither a max heap nor a min heap.
 ## 🚀 How to Run
 
 1. Clone the repository or download the `.java` file.
+2. Compile the code or paste into a compatible compiler.
