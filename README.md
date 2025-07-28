@@ -13,3 +13,4 @@ This program analyzes integer arrays to verify if they satisfy the properties of
 
 * Validates min heap structure
 * Validates max heap structure
+* Outputs the type of heap each array represents
