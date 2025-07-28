@@ -18,3 +18,8 @@ This program analyzes integer arrays to verify if they satisfy the properties of
 ## 🛠️ How It Works
 
 Each array is traversed from the root to the last parent node. The child indices (`2*i + 1` for left, `2*i + 2` for right) are used to check heap conditions.
+
+## 🧪 Example Output
+
+```
+Array A is a min heap.
